@@ -6,9 +6,9 @@ basada en las recomendaciones de android [1].
 Existen packages principales que respetan esa arquitectura: Data, Domain y UI. Dentro de cada package encontrarás un
 readme.md que explica un poco el rol de cada uno.
 
-Data: https://github.com/unlam-tec-movil/scaffolding/tree/main/app/src/main/java/ar/edu/unlam/mobile/scaffold/data
-Domain: https://github.com/unlam-tec-movil/scaffolding/tree/main/app/src/main/java/ar/edu/unlam/mobile/scaffold/domain
-UI: https://github.com/unlam-tec-movil/scaffolding/tree/main/app/src/main/java/ar/edu/unlam/mobile/scaffold/ui
+* Data: https://github.com/unlam-tec-movil/scaffolding/tree/main/app/src/main/java/ar/edu/unlam/mobile/scaffold/data
+* Domain: https://github.com/unlam-tec-movil/scaffolding/tree/main/app/src/main/java/ar/edu/unlam/mobile/scaffold/domain
+* UI: https://github.com/unlam-tec-movil/scaffolding/tree/main/app/src/main/java/ar/edu/unlam/mobile/scaffold/ui
 
 Hay otro package, core, que contiene elementos que son comunes a todos los packages.
 
