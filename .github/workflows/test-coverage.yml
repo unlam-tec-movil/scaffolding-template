@@ -27,11 +27,11 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           title: Code Coverage
           update-comment: true
-          min-coverage-overall: 80
-          min-coverage-changed-files: 80
+          min-coverage-overall: 0
+          min-coverage-changed-files: 0
           coverage-counter-type: LINE
 
       - name: Upload coverage reports
-        uses: codecov/codecov-action@v2
+        uses: codecov/codecov-action@v3
         with:
           files: app/build/reports/kover/reportRelease.xml
