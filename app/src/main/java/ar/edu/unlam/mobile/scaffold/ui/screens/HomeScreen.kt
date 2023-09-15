@@ -28,8 +28,6 @@ fun HomeScreen(modifier: Modifier = Modifier, viewModel: HomeViewModel = hiltVie
         is KittyUIState.Error -> {
             // Error
         }
-
-        else -> {}
     }
 }
 
